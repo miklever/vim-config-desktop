@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; Adds "edit with vim" to right-click menu
+[HKEY_CLASSES_ROOT\*\Shell\Vim]
+@="Edit with &Vim"
+"Icon"="\"C:\\Software\\Vim\\current\\gvim.exe\""
+
+[HKEY_CLASSES_ROOT\*\Shell\Vim\command]
+@="\"C:\\Software\\Vim\\current\\gvim.exe\" \"%1\""

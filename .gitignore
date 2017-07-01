@@ -1,0 +1,19 @@
+# plug.vim
+plugged/
+
+# swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
+
+# sessions
+session/
+Session.vim
+
+# temporary
+.netrwhist
+*~
+
+# auto-generated tag files
+tags
