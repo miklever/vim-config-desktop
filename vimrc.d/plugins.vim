@@ -74,6 +74,9 @@ Plug 'junegunn/vim-easy-align'
 " moves lines and selections
 Plug 'matze/vim-move'
 
+" search for, substitute, and abbreviate multiple variants of a word
+Plug 'tpope/tpope-vim-abolish'
+
 
 " Utilities
 "==========================================================
